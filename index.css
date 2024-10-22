@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 255, 173);
+    font-family: 'Jua', sans-serif;
+}
+
+h1 {
+    color: rgb(64, 59, 85);
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Days One',sans-serif;
+}
+
+p {
+    color: rgb(64, 59, 85);
+    font-size: 36px;
+    font-family: 'Jua', sans-serif;
+}
+
+.pan {
+    transform: rotateY(180deg);
+    size: 50%;
+    left: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.pan-full {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.pan-container:hover .pan-full {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.pan-container:hover .pan-empty {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
