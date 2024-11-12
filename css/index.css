@@ -25,9 +25,9 @@ h1 {
 .pan {
     position: absolute;
     top: 30vh;
-    left: 5vw;
+    left: 10vw;
     transform: rotateY(180deg);
-    width: 40vw;
+    width: 35vw;
 }
 
 .pan-full {
@@ -41,15 +41,15 @@ h1 {
 
 .chef {
     position: absolute;
-    right: 5vw;
-    width: 30vw;
+    right: 10vw;
+    width: 25vw;
 }
 
 .speech-bubble {
     position: absolute;
-    top: 15vh;
-    right: 27vw;
-    width: 15vw;
+    top: 17vh;
+    right: 28vw;
+    width: 12vw;
     transform: rotateZ(-20deg);
     text-align: center;
 }
@@ -64,7 +64,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Jua', sans-serif;
 }
 
