@@ -1,0 +1,50 @@
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: rgb(145, 200, 165);
+}
+
+h1 {
+    background-color: white;
+    border-radius: 2vh;
+    text-align: center;
+    padding: 1.5vh;
+    font-size: 4vh;
+    margin: 0.25vw;
+    margin-bottom: 4vh;
+    margin-top: 2vw;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3vh;
+    margin: 2vh
+}
+
+.headers {
+    font-family: 'Days One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10vh;
+}
+
+.category {
+    background-color: white;
+    border-radius: 2vh;
+    padding: 3vh;
+    margin: 4vh;
+    width: 70%;
+}
+
+.term {
+    margin: 2vh;
+    line-height: 1.5;
+    font-size: 2.5vh;
+}
+
+.squid {
+    position: fixed;
+    bottom: 2vh;
+    right: 1vw;
+    width: 23vw;
+}
