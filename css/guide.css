@@ -1,47 +1,50 @@
 body {
     font-family: 'Jua', sans-serif;
-    color: rgb(133, 50, 50);
     background-color: rgb(255, 173, 173);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(255, 217, 217);
+    border-radius: 2vw;
+    padding: 2vh;
+    text-align: center;
+    max-width: 60vw;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
-    top: 1vh;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Days One', sans-serif;
     text-align: center;
-    color:rgb(91, 10, 10)
+    margin: 2vw;
+    color: rgb(91, 10, 10);
 }
 
-ul {
-    font-size: 3vw;
-    font-family: 'Jua', sans-serif;
-    text-align: left;
-    position: absolute;
-    left: 1vw;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vh;
 }
 
-a {
+.grid-item {
+    background-color: white;
+    padding: 1.5vw;
+    border-radius: 1vw;
     text-decoration: none;
     color: rgb(133, 50, 50);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-button {
-    background-color: rgb(255, 217, 217);
-    color: rgb(133, 50, 50);
-    padding: 0.5vw 1vw;
-    font-size: 1vw;
-    border: none;
-    border-radius: 0.25vw;
-    cursor: pointer;
-    position: absolute;
-    left: 1vw;
-    bottom: 2vh;
-}
-
-button:hover {
+.grid-item:hover {
     background-color: rgb(255, 117, 117);
 }
