@@ -5,11 +5,21 @@ body {
 }
 
 h1 {
+    background-color: white;
+    border-radius: 2vh;
+    padding: 1.25vh;
     top: 1vh;
     font-size: 4vw;
     font-family: 'Days One',sans-serif;
     text-align: center;
-    color:rgb(195, 166, 97)
+    color:rgb(200, 165, 100);
+    box-shadow: 0 0 0 0.5vh rgb(200, 165, 100);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -41,6 +51,7 @@ h1 {
 
 .chef {
     position: absolute;
+    bottom: 1vh;
     right: 10vw;
     width: 30vw;
 }
@@ -48,7 +59,7 @@ h1 {
 .speech-bubble {
     position: absolute;
     top: 20vh;
-    right: 33vw;
+    right: 32vw;
     width: 12vw;
     transform: rotateZ(-20deg);
     text-align: center;
