@@ -27,7 +27,7 @@ h1 {
     top: 30vh;
     left: 10vw;
     transform: rotateY(180deg);
-    width: 35vw;
+    width: 40vw;
 }
 
 .pan-full {
@@ -42,13 +42,13 @@ h1 {
 .chef {
     position: absolute;
     right: 10vw;
-    width: 25vw;
+    width: 30vw;
 }
 
 .speech-bubble {
     position: absolute;
-    top: 17vh;
-    right: 28vw;
+    top: 20vh;
+    right: 33vw;
     width: 12vw;
     transform: rotateZ(-20deg);
     text-align: center;

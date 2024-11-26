@@ -1,6 +1,6 @@
 body {
     font-family: 'Jua', sans-serif;
-    background-color: rgb(145, 200, 165);
+    background-color: rgb(140, 200, 220);
 }
 
 h1 {
@@ -20,6 +20,12 @@ h2 {
     margin: 2vh
 }
 
+p {
+    margin: 2vh;
+    line-height: 1.5;
+    font-size: 2.5vh;
+}
+
 .headers {
     font-family: 'Days One', sans-serif;
     display: flex;
@@ -28,18 +34,12 @@ h2 {
     bottom: 10vh;
 }
 
-.category {
+.product {
     background-color: white;
     border-radius: 2vh;
     padding: 3vh;
     margin: 4vh;
     width: 70%;
-}
-
-li {
-    margin: 2vh;
-    line-height: 1.5;
-    font-size: 2.5vh;
 }
 
 .avatar {

@@ -1,6 +1,6 @@
 body {
     font-family: 'Jua', sans-serif;
-    background-color: rgb(145, 200, 165);
+    background-color: rgb(110, 180, 200);
 }
 
 h1 {
@@ -20,6 +20,12 @@ h2 {
     margin: 2vh
 }
 
+p {
+    margin: 2vh;
+    line-height: 1.5;
+    font-size: 2.5vh;
+}
+
 .headers {
     font-family: 'Days One', sans-serif;
     display: flex;
@@ -28,7 +34,7 @@ h2 {
     bottom: 10vh;
 }
 
-.category {
+.recipe {
     background-color: white;
     border-radius: 2vh;
     padding: 3vh;
@@ -36,15 +42,9 @@ h2 {
     width: 70%;
 }
 
-li {
-    margin: 2vh;
-    line-height: 1.5;
-    font-size: 2.5vh;
-}
-
 .avatar {
     position: fixed;
     bottom: 2vh;
     right: 1vw;
-    width: 23vw;
+    width: 20vw;
 }

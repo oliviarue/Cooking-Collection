@@ -1,6 +1,6 @@
 body {
     font-family: 'Jua', sans-serif;
-    background-color: rgb(145, 200, 165);
+    background-color: rgb(185, 225, 230);
 }
 
 h1 {
@@ -28,15 +28,15 @@ h2 {
     bottom: 10vh;
 }
 
-.category {
+.ingredient {
     background-color: white;
     border-radius: 2vh;
     padding: 3vh;
     margin: 4vh;
-    width: 70%;
+    width: 75%;
 }
 
-li {
+.details {
     margin: 2vh;
     line-height: 1.5;
     font-size: 2.5vh;
@@ -46,5 +46,5 @@ li {
     position: fixed;
     bottom: 2vh;
     right: 1vw;
-    width: 23vw;
+    width: 15vw;
 }
